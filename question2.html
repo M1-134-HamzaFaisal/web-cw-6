@@ -19,10 +19,20 @@
       />
     </div>
     <div class="center">
-      <button onclick="">اختبر 🤓</button>
+      <button onclick="check()">اختبر 🤓</button>
     </div>
     <script>
       // قم بإنشاء الدالة هنا
+     
+      function check(){
+        let num =document.getElementById(`height`).Value
+      console.log(num)
+        if((num%2)==0){
+          alert(`العدد زوجي`)
+        }else{
+          alert(`العدد فردي`)
+        }
+      }
       // numberType << idقم بإظهار النتيجة النهائية باستخدام ال
       // لا تنسى مناداة الدالة عند الضغط على الزر
     </script>
