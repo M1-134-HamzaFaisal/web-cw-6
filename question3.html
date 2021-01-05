@@ -65,18 +65,17 @@
           Turkey     amount * 24.68
         */
        if(country==`USA`){
-         let newAmount = amount*3.27
-         document.getElementById(`newAmout`).innerText= `newAmount`
+          newAmount = amount*3.27
+         document.getElementById(`newAmout`).innerText= newAmount
        } else if (country == `England`){
-        let newAmount = amount*2.52 
-        document.getElementById(`newAmout`).innerText=`${newAmount}`
-       }
-       if(country==`UAE`){
-         let newAmount = amount*12.01
-         document.getElementById(`newAmout`).innerText=`${newAmount}`
+         newAmount = amount*2.52 
+        document.getElementById(`newAmout`).innerText=newAmount
+       }else if(country==`UAE`){
+          newAmount = amount*12.01
+         document.getElementById(`newAmout`).innerText=newAmount
        } else if (country == `Turkey`){
-        let newAmount = amount*24.68
-        document.getElementById(`newAmout`).innerText=`${newAmount}`
+         newAmount = amount*24.68
+        document.getElementById(`newAmout`).innerText=newAmount
        }
       }
     </script>
